@@ -22,7 +22,6 @@
             "main": "projects/example-app/src/main.ts",
             "polyfills": "projects/example-app/src/polyfills.ts",
             "tsConfig": "projects/example-app/tsconfig.app.json",
-            "aot": false,
             "assets": [
               "projects/example-app/src/favicon.ico",
               "projects/example-app/src/assets"
@@ -166,7 +165,6 @@
             "main": "projects/docs-app/src/main.ts",
             "polyfills": "projects/docs-app/src/polyfills.ts",
             "tsConfig": "projects/docs-app/tsconfig.app.json",
-            "aot": false,
             "assets": [
               "projects/docs-app/src/favicon.ico",
               "projects/docs-app/src/assets"
@@ -250,5 +248,8 @@
       }
     }
   },
-  "defaultProject": "example-app"
+  "defaultProject": "example-app",
+  "cli": {
+    "analytics": false
+  }
 }

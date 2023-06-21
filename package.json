@@ -30,15 +30,13 @@
     "angular2 tree component"
   ],
   "scripts": {
-    "lint:lib": "ng lint angular-tree-component",
-    "build:lib": "npm run lint:lib && npm run clean:dist && ng build angular-tree-component",
+    "build:lib": "npm run clean:dist && ng build angular-tree-component",
     "build": "npm run build:lib",
     "clean:dist": "rimraf dist",
     "copy:files": "cp ./README.md ./dist/angular-tree-component && cp ./LICENSE ./dist/angular-tree-component && cp ./projects/angular-tree-component/src/lib/angular-tree-component.css ./dist/angular-tree-component/css/",
     "copy:files:win": "copy README.md .\\dist\\angular-tree-component && copy LICENSE .\\dist\\angular-tree-component && xcopy .\\projects\\angular-tree-component\\src\\lib\\angular-tree-component.css .\\dist\\angular-tree-component\\css\\",
     "doc": "typedoc --module commonjs --out doc lib/defs/api.ts",
     "clean:all": "npm run clean:dist && rimraf node_modules && npm cache clean",
-    "lint": "tslint lib/**/*.ts",
     "prepublish:lib:win": "npm run build:lib && npm run copy:files:win",
     "start:example-app": "ng serve",
     "start:example-app:es5": "ng serve --configuration=es5",
@@ -69,6 +67,7 @@
     "mobx": "~4.14.1"
   },
   "devDependencies": {
+    "ng-packagr": "^16.1.0",
     "@angular-devkit/build-angular": "^16.1.0",
     "@angular/cli": "^14.2.11",
     "@angular/common": "^16.1.1",
@@ -89,7 +88,6 @@
     "html-dnd": "1.2.0",
     "http-server": "0.9.0",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.7",
     "nightwatch": "0.9.12",
     "prettier": "^1.19.1",
     "jasmine-core": "~4.5.0",
@@ -105,7 +103,6 @@
     "testcafe": "^1.8.8",
     "tsickle": "^0.38.1",
     "tslib": "^2.0.0",
-    "tslint": "~6.1.0",
     "typedoc": "^0.3.12",
     "typescript": "~4.9.5",
     "uuid": "^8.2.0",
