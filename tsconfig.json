@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "module": "es2020",
     "moduleResolution": "node",
-    "target": "es2015",
+    "target": "ES2022",
     "outDir": "/dist/out-tsc",
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
@@ -15,8 +15,8 @@
     "stripInternal": true,
     "typeRoots": ["node_modules/@types"],
     "lib": [
-      "es2017",
-      "dom"
+        "es2018",
+        "dom"
     ],
     "paths": {
       "angular-tree-component": [
