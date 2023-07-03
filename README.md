@@ -1,19 +1,19 @@
-[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)
-[![Build Status](https://dev.azure.com/pdsgmbh/AngularTree/_apis/build/status/AngularTreeComponent-CI?branchName=master)](https://dev.azure.com/pdsgmbh/AngularTree/_build/latest?definitionId=59&branchName=master)
-<a href="https://angular-tree-component.herokuapp.com/"><img src="https://angular-tree-component.herokuapp.com/badge.svg" alt="slack" ></a>
-
 # angular tree component
+
+## Fork!
+
+Fork of angular-tree-component-amphinicy of by @slavede to get support for Angular 16
 
 ## Getting started
 
 Install `angular-tree-component`:
 
-```npm install @circlon/angular-tree-component```
+```npm install angular-tree-component-amphinicy```
 
 Import `TreeModule`:
 
 ```
-import { TreeModule } from '@circlon/angular-tree-component';
+import { TreeModule } from 'angular-tree-component-amphinicy';
 
 @NgModule({
   declarations: [AppComponent],
@@ -26,7 +26,7 @@ export class AppModule {}
 Add css to `styles.scss` or include in `angular.json`:
 
 ```
-@import '~@circlon/angular-tree-component/css/angular-tree-component.css';
+@import '~angular-tree-component-amphinicy/css/angular-tree-component.css';
 ```
 
 ## Docs, Demos & More
