@@ -59,7 +59,6 @@
     "Adam Klein <adam@500tech.com>"
   ],
   "dependencies": {
-    "@angular-devkit/core": "^14.2.11",
     "@angular/animations": "^16.1.1",
     "@angular/cdk": "^16.1.1",
     "@angular/forms": "^16.1.1",
@@ -69,7 +68,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.1.0",
-    "@angular/cli": "^14.2.11",
+    "@angular/cli": "^16.1.1",
     "@angular/common": "^16.1.1",
     "@angular/compiler": "^16.1.1",
     "@angular/compiler-cli": "^16.1.1",
